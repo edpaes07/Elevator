@@ -23,8 +23,15 @@ body{
     border-top: solid black 15px;
 }
 
-.doors{
+.black-box{
     position: relative;
+    height: 80vh;
+    background-color: black;
+    width: 79%;
+    margin-left: 10%;
+}
+
+.doors{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -33,14 +40,14 @@ body{
 }
 
 .left-door{
-    width: 40%!important;
+    width: 50%!important;
     height: 90%;
     background: #e5e9ea;
     background: -moz-linear-gradient(-45deg,  #e5e9ea 0%, #ebf0f1 1%, #ebf0f1 21%, #eaeff0 21%, #dfe3e4 23%, #dfe3e4 27%, #e1e5e5 27%, #ebf0f1 29%, #ebf0f1 49%, #eaeff0 49%, #dfe3e4 50%, #dfe3e4 55%, #e0e4e5 55%, #eaeff0 56%, #ebf0f1 56%, #ebf0f1 77%, #eaeff0 77%, #e0e4e5 78%, #dfe3e4 79%, #dfe3e4 83%, #e0e4e5 83%, #eaeff0 84%, #ebf0f1 85%, #ebf0f1 100%);
     background: -webkit-linear-gradient(-45deg,  #e5e9ea 0%,#ebf0f1 1%,#ebf0f1 21%,#eaeff0 21%,#dfe3e4 23%,#dfe3e4 27%,#e1e5e5 27%,#ebf0f1 29%,#ebf0f1 49%,#eaeff0 49%,#dfe3e4 50%,#dfe3e4 55%,#e0e4e5 55%,#eaeff0 56%,#ebf0f1 56%,#ebf0f1 77%,#eaeff0 77%,#e0e4e5 78%,#dfe3e4 79%,#dfe3e4 83%,#e0e4e5 83%,#eaeff0 84%,#ebf0f1 85%,#ebf0f1 100%);
     background: linear-gradient(135deg,  #e5e9ea 0%,#ebf0f1 1%,#ebf0f1 21%,#eaeff0 21%,#dfe3e4 23%,#dfe3e4 27%,#e1e5e5 27%,#ebf0f1 29%,#ebf0f1 49%,#eaeff0 49%,#dfe3e4 50%,#dfe3e4 55%,#e0e4e5 55%,#eaeff0 56%,#ebf0f1 56%,#ebf0f1 77%,#eaeff0 77%,#e0e4e5 78%,#dfe3e4 79%,#dfe3e4 83%,#e0e4e5 83%,#eaeff0 84%,#ebf0f1 85%,#ebf0f1 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e9ea', endColorstr='#ebf0f1',GradientType=1 );
-    border: solid black 10px!important;
+    border-right: solid black 10px!important;
     
     display: flex;
     justify-content: flex-end;
@@ -70,14 +77,14 @@ body{
 }
 
 .right-door{
-    width: 40%!important;
+    width: 50%!important;
     height: 90%;
     background: #e5e9ea;
     background: -moz-linear-gradient(-45deg,  #e5e9ea 0%, #ebf0f1 1%, #ebf0f1 21%, #eaeff0 21%, #dfe3e4 23%, #dfe3e4 27%, #e1e5e5 27%, #ebf0f1 29%, #ebf0f1 49%, #eaeff0 49%, #dfe3e4 50%, #dfe3e4 55%, #e0e4e5 55%, #eaeff0 56%, #ebf0f1 56%, #ebf0f1 77%, #eaeff0 77%, #e0e4e5 78%, #dfe3e4 79%, #dfe3e4 83%, #e0e4e5 83%, #eaeff0 84%, #ebf0f1 85%, #ebf0f1 100%);
     background: -webkit-linear-gradient(-45deg,  #e5e9ea 0%,#ebf0f1 1%,#ebf0f1 21%,#eaeff0 21%,#dfe3e4 23%,#dfe3e4 27%,#e1e5e5 27%,#ebf0f1 29%,#ebf0f1 49%,#eaeff0 49%,#dfe3e4 50%,#dfe3e4 55%,#e0e4e5 55%,#eaeff0 56%,#ebf0f1 56%,#ebf0f1 77%,#eaeff0 77%,#e0e4e5 78%,#dfe3e4 79%,#dfe3e4 83%,#e0e4e5 83%,#eaeff0 84%,#ebf0f1 85%,#ebf0f1 100%);
     background: linear-gradient(135deg,  #e5e9ea 0%,#ebf0f1 1%,#ebf0f1 21%,#eaeff0 21%,#dfe3e4 23%,#dfe3e4 27%,#e1e5e5 27%,#ebf0f1 29%,#ebf0f1 49%,#eaeff0 49%,#dfe3e4 50%,#dfe3e4 55%,#e0e4e5 55%,#eaeff0 56%,#ebf0f1 56%,#ebf0f1 77%,#eaeff0 77%,#e0e4e5 78%,#dfe3e4 79%,#dfe3e4 83%,#e0e4e5 83%,#eaeff0 84%,#ebf0f1 85%,#ebf0f1 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e9ea', endColorstr='#ebf0f1',GradientType=1 );
-    border: solid black 10px!important;
+    border-left: solid black 10px!important;
 
     display: flex;
     justify-content: flex-start;
@@ -115,6 +122,7 @@ body{
 
 .line{
     margin-top: 5%;
+    margin-bottom: 5%;
     width: 50%;
     background-color: black;
     height: 15px;
@@ -125,6 +133,7 @@ body{
     width: 20px;
     height: 20px;
     margin-top: 5%;
+    margin-bottom: 5%;
     margin-right: 10px;
 }
 
@@ -134,9 +143,10 @@ body{
     width: 70px;
     height: 70px;
     right: 0;
-    margin-top: 7%;
-    margin-right: 20px;
+    margin-top: 2%;
+    margin-right: 10px;
     background-color: #4fc0e8;
+    border-radius: 10px;
 }
 
 .left-puchador{
@@ -160,10 +170,10 @@ body{
 .buttons{
     position: absolute;
     background-color: lightgray;
-    width: 10%;
-    margin: 2%;
-    height: 150px;
-    right: 1px;
+    width: 8%;
+    right: 0;
+    top: 50%;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,7 +181,7 @@ body{
 }
 
 .space-limiter{
-    width: 12%;
+    width: 2%;
     margin: 2%;
     height: 50px;
 }
@@ -193,3 +203,17 @@ body{
     background-color: darkgray;
     cursor: pointer;
 }
+
+.main-visor p{
+    color: white;
+    text-align: center;
+    font-family: 'Federant', cursive;
+    font-size: 3em;
+}
+
+.main-visor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
