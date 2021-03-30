@@ -30,7 +30,10 @@ body{
 .black-box{
     position: relative;
     height: 80vh;
-    background-color: black;
+    /* background-color: black; */
+    background-image: url("https://media.discordapp.net/attachments/567559808085917705/826295479880777728/elevador2.jpg?width=592&height=450");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 79%;
     margin-left: 10%;
 }
